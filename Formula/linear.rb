@@ -1,25 +1,25 @@
 class Linear < Formula
-  desc "CLI tool for linear.app that uses git branch names and directory names to open issues and team pages"
+  desc "Git-first Linear CLI with workspace-aware auth, issue workflows, and automation-friendly JSON output"
   homepage "https://github.com/kyaukyuai/linear-cli"
-  version "2.0.0"
+  version "2.0.1"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/kyaukyuai/linear-cli/releases/download/v2.0.0/linear-aarch64-apple-darwin.tar.xz"
-      sha256 "d072019cf7c51d94962ec826f7c7e8528e327c98a91e90654b598ccd382ba9e1"
+      url "https://github.com/kyaukyuai/linear-cli/releases/download/v2.0.1/linear-aarch64-apple-darwin.tar.xz"
+      sha256 "3bdd2e69321738d16576c7926edd25bad073df25ba14eb8b63f43be7ca6aa0bc"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/kyaukyuai/linear-cli/releases/download/v2.0.0/linear-x86_64-apple-darwin.tar.xz"
-      sha256 "fc826cd3a99d7076e828b940afdb11c62f46271d677638e0f95d71f56b192095"
+      url "https://github.com/kyaukyuai/linear-cli/releases/download/v2.0.1/linear-x86_64-apple-darwin.tar.xz"
+      sha256 "718d2d508e3d8a9ad3bb00fe3f612cd08551e8594490ea4afc8f24a0f2773d90"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/kyaukyuai/linear-cli/releases/download/v2.0.0/linear-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "793a1dc3886337a083eb2f5a2707453af08f8acb29cdbf0b3b226451d9640997"
+      url "https://github.com/kyaukyuai/linear-cli/releases/download/v2.0.1/linear-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "ebc6c2db4c08e67420e87bb3776b488b0636608868467623766a3eb03f59daa9"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/kyaukyuai/linear-cli/releases/download/v2.0.0/linear-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "ad0a06a0e0abf43b3592241dc295736005fe7ef9c886b6fff090e0edcfb6e703"
+      url "https://github.com/kyaukyuai/linear-cli/releases/download/v2.0.1/linear-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "fd48d1bd7be10477267f6f75de763d0cefc29cb95349958888216ea112ceac39"
     end
   end
   license "MIT"
