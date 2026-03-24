@@ -1,25 +1,25 @@
 class Linear < Formula
   desc "Git-first Linear CLI with workspace-aware auth, issue workflows, and automation-friendly JSON output"
   homepage "https://github.com/kyaukyuai/linear-cli"
-  version "2.8.1"
+  version "2.8.2"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/kyaukyuai/linear-cli/releases/download/v2.8.1/linear-aarch64-apple-darwin.tar.xz"
-      sha256 "4c0bec40f3eee5e562b849acc6620ba0133843931e3eb5b23cb28c9185dbbd61"
+      url "https://github.com/kyaukyuai/linear-cli/releases/download/v2.8.2/linear-aarch64-apple-darwin.tar.xz"
+      sha256 "bb97534ca9eeac9d597300d5f85f7977228f39f939626722b4473694f6e55eb6"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/kyaukyuai/linear-cli/releases/download/v2.8.1/linear-x86_64-apple-darwin.tar.xz"
-      sha256 "acc5ad3e77797cd17fb5b1b9a4208bdf9dc680e1f44db40c6958d4f8a310eb3d"
+      url "https://github.com/kyaukyuai/linear-cli/releases/download/v2.8.2/linear-x86_64-apple-darwin.tar.xz"
+      sha256 "e87ed6c431549dc11b2149ed49c1771f811483f3a27439b641ac57790ca32562"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/kyaukyuai/linear-cli/releases/download/v2.8.1/linear-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "5745ab312081ec789b93b17cb87c1d5de0be67093ba52702a05a5d9b91c307bb"
+      url "https://github.com/kyaukyuai/linear-cli/releases/download/v2.8.2/linear-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "4aea3bb1323edbc72519729ffe504f83bb951204affd43802b6f745f57116f4d"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/kyaukyuai/linear-cli/releases/download/v2.8.1/linear-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "696cec70c117a424f29050c3d63a26bee9e63bdcf4651c91f1a3a2f73f304c87"
+      url "https://github.com/kyaukyuai/linear-cli/releases/download/v2.8.2/linear-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "04a002ec92e13c42b6343adf4aa8ae8ddee843d7aa8b6d9d88f7fcbfce68ee65"
     end
   end
   license "MIT"
