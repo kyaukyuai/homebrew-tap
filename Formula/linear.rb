@@ -1,25 +1,25 @@
 class Linear < Formula
-  desc "Git-first Linear CLI with workspace-aware auth, issue workflows, and automation-friendly JSON output"
+  desc "Agent-first Linear CLI with stable JSON contracts, dry-run previews, and workflow-safe automation"
   homepage "https://github.com/kyaukyuai/linear-cli"
-  version "2.10.0"
+  version "2.11.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/kyaukyuai/linear-cli/releases/download/v2.10.0/linear-aarch64-apple-darwin.tar.xz"
-      sha256 "51c18c4825b9bd2225a31e26daa99a404e9efd914da30928892ea8e21724a86d"
+      url "https://github.com/kyaukyuai/linear-cli/releases/download/v2.11.0/linear-aarch64-apple-darwin.tar.xz"
+      sha256 "af08a54097e75eabe2d8d492c84723c448123b1ea9e03913fbf821a83d27a549"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/kyaukyuai/linear-cli/releases/download/v2.10.0/linear-x86_64-apple-darwin.tar.xz"
-      sha256 "134d4dc373ea1e184d30f8c4fd46df01e1de60b56eb43a5bd4c2aef0668905c3"
+      url "https://github.com/kyaukyuai/linear-cli/releases/download/v2.11.0/linear-x86_64-apple-darwin.tar.xz"
+      sha256 "a1deb807759fb3fc835ece7fda435ab6f990e19b27cd15839fc31629d8a77ff3"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/kyaukyuai/linear-cli/releases/download/v2.10.0/linear-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "a790c592cec45a018373a5280904b6bde28a8b0f43d3955bab7a7124ce487aef"
+      url "https://github.com/kyaukyuai/linear-cli/releases/download/v2.11.0/linear-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "8ff4857faebb228373ad5383c837dccd092c0abc3da7ea0024f4b1538bab8d1f"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/kyaukyuai/linear-cli/releases/download/v2.10.0/linear-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "68cf6fedfdb7de7a6fb201a527f2b883a1d3e9bf76e7a19a4ddfb4cbd1c06b1c"
+      url "https://github.com/kyaukyuai/linear-cli/releases/download/v2.11.0/linear-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "d52707ed9ea7decd63232817cf42286dba07bad8b77d7e8938e1f50a3279bbdf"
     end
   end
   license "MIT"
