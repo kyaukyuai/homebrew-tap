@@ -1,25 +1,25 @@
 class Linear < Formula
   desc "Agent-first Linear CLI with stable JSON contracts, dry-run previews, and workflow-safe automation"
   homepage "https://github.com/kyaukyuai/linear-cli"
-  version "3.0.1"
+  version "3.1.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/kyaukyuai/linear-cli/releases/download/v3.0.1/linear-aarch64-apple-darwin.tar.xz"
-      sha256 "478a73c64f1bb14a66d5d703b205cfcfe4e73e1ce8c8b8aafc17b2112585d9aa"
+      url "https://github.com/kyaukyuai/linear-cli/releases/download/v3.1.0/linear-aarch64-apple-darwin.tar.xz"
+      sha256 "3a36db07612b614606db4358ee1e0daddb9b2a54febf69b54c154f4006dc158b"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/kyaukyuai/linear-cli/releases/download/v3.0.1/linear-x86_64-apple-darwin.tar.xz"
-      sha256 "2c3d3caac64599296a36e225d9a960f80a24cffacc4d08ba6f267038efeb092c"
+      url "https://github.com/kyaukyuai/linear-cli/releases/download/v3.1.0/linear-x86_64-apple-darwin.tar.xz"
+      sha256 "9e2d4464fedb83a086b9f88a91a1675cc7e96c653e574ebaa938c4572b417614"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/kyaukyuai/linear-cli/releases/download/v3.0.1/linear-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "80af326fdb1c3b6aed3dbd9cc1b92876f7b7a3f76696793d6cc30208ab551dfc"
+      url "https://github.com/kyaukyuai/linear-cli/releases/download/v3.1.0/linear-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "6d435547188929922c54e7ed02c4dab30f409b6b2000d6fd4bfebb8cb323e797"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/kyaukyuai/linear-cli/releases/download/v3.0.1/linear-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "79cbf8abedf76347bb00740ba6b169f988412f22d43d13f7a19959e1b392410b"
+      url "https://github.com/kyaukyuai/linear-cli/releases/download/v3.1.0/linear-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "e8b80cbeb638ea0b8cbb6bf210d4b530cb73430a6657684873c6900c41ee6550"
     end
   end
   license "MIT"
